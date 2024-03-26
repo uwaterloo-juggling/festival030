@@ -1,4 +1,4 @@
-THEME="--default-color white --palette palette.txt"
+THEME="--default-color blue --palette palette.txt"
 SIZING="--margin 6 --line-width 5 --beat-spacing 20 --track-spacing 25"
 COMMAND="python ladder_diagram.py $SIZING $THEME --siteswap"
 
