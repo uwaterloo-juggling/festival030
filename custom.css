@@ -1,0 +1,62 @@
+/* Custom theme on top of new.css */
+
+:root {
+    --my-orange: #fe9920;
+    --my-red: #e54b4b;
+    --my-blue: #5aa9e6;
+    --my-white: #e4fde1;
+    --my-grey: #303030;
+    --my-black: #030303;
+
+	--nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+    --nc-tx-1: var(--my-orange);
+    --nc-tx-2: var(--my-white);
+    --nc-bg-1: var(--my-black);
+    --nc-bg-2: var(--my-grey);
+    --nc-bg-3: var(--my-red);
+    --nc-lk-1: var(--my-blue);
+    --nc-lk-2: var(--my-orange);
+    --nc-lk-tx: #FFFFFF;
+    --nc-ac-1: #7928CA;
+    --nc-ac-tx: #FFFFFF;
+}
+
+
+h1,h2 {
+    text-align: center;
+    border: none;
+
+    font-family: "New Rocker", var(--nc-font-sans);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.34rem;
+}
+
+
+hr {
+    background-image: url('images/534.png');
+    height: 40px;
+    border:0px;
+}
+
+hr.s030 {
+    background-image: url('images/030.png');
+}
+
+hr.s3 {
+    background-image: url('images/3.png');
+}
+
+hr.s441 {
+    background-image: url('images/441.png');
+}
+
+hr.s645 {
+    background-image: url('images/645.png');
+}
+
+b {
+    /*color: var(--my-blue);*/
+    color: var(--my-orange);
+}

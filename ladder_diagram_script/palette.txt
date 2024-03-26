@@ -1,0 +1,6 @@
+orange #fe9920
+red #e54b4b
+blue #5aa9e6
+white #e4fde1
+grey #303030
+black #030303
